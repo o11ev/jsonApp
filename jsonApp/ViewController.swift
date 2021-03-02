@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func randomButtonPressed(_ sender: Any) {
+        activityIndicator.startAnimating()
         fetchImage()
     }
     
