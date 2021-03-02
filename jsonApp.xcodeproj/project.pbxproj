@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D5E8F225EECADF00D3676B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5E8F125EECADF00D3676B /* Model.swift */; };
 		04E315BB25EEADCC004C40BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E315BA25EEADCC004C40BE /* AppDelegate.swift */; };
 		04E315BD25EEADCC004C40BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E315BC25EEADCC004C40BE /* SceneDelegate.swift */; };
 		04E315BF25EEADCC004C40BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E315BE25EEADCC004C40BE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D5E8F125EECADF00D3676B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		04E315B725EEADCC004C40BE /* jsonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E315BA25EEADCC004C40BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E315BC25EEADCC004C40BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				04E315BA25EEADCC004C40BE /* AppDelegate.swift */,
 				04E315BC25EEADCC004C40BE /* SceneDelegate.swift */,
 				04E315BE25EEADCC004C40BE /* ViewController.swift */,
+				04D5E8F125EECADF00D3676B /* Model.swift */,
 				04E315C025EEADCC004C40BE /* Main.storyboard */,
 				04E315C325EEADCD004C40BE /* Assets.xcassets */,
 				04E315C525EEADCD004C40BE /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				04E315BF25EEADCC004C40BE /* ViewController.swift in Sources */,
 				04E315BB25EEADCC004C40BE /* AppDelegate.swift in Sources */,
 				04E315BD25EEADCC004C40BE /* SceneDelegate.swift in Sources */,
+				04D5E8F225EECADF00D3676B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
