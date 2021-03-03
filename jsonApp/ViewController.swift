@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
 }
 
+// MARK: Networking
 extension ViewController {
     private func fetchImage() {
         guard let url = URL(string: "https://aws.random.cat/meow") else { return }
