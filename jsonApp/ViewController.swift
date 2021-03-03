@@ -16,19 +16,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         activityIndicator.startAnimating()
         activityIndicator.hidesWhenStopped = true
-        
     }
     
     @IBAction func randomButtonPressed(_ sender: Any) {
         activityIndicator.startAnimating()
         fetchImage()
     }
-    
-    
+}
+
+extension ViewController {
     private func fetchImage() {
         guard let url = URL(string: "https://aws.random.cat/meow") else { return }
         
-        URLSession.shared.dataTask(with: url) { (data, _, _) in
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let response = response {
+                print(response)
+            }
+            
             guard let data = data else { return }
             
             do {
@@ -42,12 +46,9 @@ class ViewController: UIViewController {
                     self.imageView.image = UIImage(data: imageData)
                     self.activityIndicator.stopAnimating()
                 }
-                
             } catch let error {
                 print(error)
             }
-            
         }.resume()
     }
 }
-
